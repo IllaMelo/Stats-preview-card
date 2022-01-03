@@ -37,19 +37,20 @@ h1{
     font-weight: 700;
     color: var(--neu-white);
     letter-spacing: 0.1rem;
-    font-size: 1.35em;
+    font-size: 1.5rem;
     line-height: 2rem;
 }
 p, span{
     color:var(--neu-more-trans-white);
     font-family: 'Lexend Deca';
     font-weight: 400;
-    font-size: 0.8em;
+    font-size: 1rem;
 
 }
 p{
     margin-top: 1.25rem;
     line-height: 1.5rem;
+    letter-spacing: 0.1rem;
 }
 span{
     text-transform: uppercase;
@@ -96,6 +97,9 @@ main{
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
+        margin:3rem;
+        justify-content: center;
+    
     
 
     }
@@ -106,11 +110,13 @@ main{
         width: 50%;
         height: 70%;
         align-items: center;
+        border-radius: 0 0 1rem 1rem;
     }
     .main-image{
         background-color: var(--prim-violet);
         width: 50%;
         height: 30%;
+        border-radius: 1rem 1rem 0 0;
     }
     .main-span{
         display: flex;
@@ -125,7 +131,9 @@ main{
     main{
         max-width: 70%;
         max-height: 40%;
-        margin: 5rem;
+        margin: auto;
+        justify-content: center;
+     
         
     
     }
