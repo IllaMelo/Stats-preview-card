@@ -60,9 +60,7 @@ strong{
     color: var(--prim-violet);
 }
 main{
-    display: flex;
-
-    
+    display: flex;    
     
 }
 .main-informations{
@@ -93,7 +91,7 @@ main{
 }
 .main-span div{
     margin-bottom: 1.5rem;
-    margin-right: 2rem;
+   
  
 }
 @media (max-width: 700px){
@@ -103,7 +101,7 @@ main{
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        margin:3rem;
+        margin: 3rem ;
         justify-content: center;
     
     
@@ -135,8 +133,9 @@ main{
 
 @media (min-width: 701px){
     main{
-        max-width: 70%;
-        max-height: 40%;
+        width: 70%;
+        height: 50%;
+    
         margin: auto;
         justify-content: center;
      
@@ -162,11 +161,12 @@ main{
     .main-span{
         height: 30%;
         max-width: 100%;
-        display: flex;
+        display: inline-flex;
         margin-top: 5rem;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
+        margin-right: 2rem;
  
     
     }
