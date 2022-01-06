@@ -127,7 +127,7 @@ main{
     .main-informations{
         display: flex;
         width: 50%;
-        padding: 5vh 10vh 5vh 5vh;
+        padding: 5vh 10vh 5vh 8vh;
         flex-direction: column;
         justify-content: space-around;
     }
